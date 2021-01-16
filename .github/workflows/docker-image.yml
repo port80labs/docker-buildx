@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  export-docker:
+  build:
     runs-on: ubuntu-latest
     steps:
       - run: export DOCKER_BUILDKIT=1
