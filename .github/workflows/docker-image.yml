@@ -24,4 +24,3 @@ jobs:
         with:
           tags: port80labs/docker-buildx:latest
           push: true
-          context: .
